@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# FAISS index (generated at runtime)
+src/vector_index.faiss
+
+# PDF data files (large binary, not source code)
+data/*.pdf
+
+# Hugging Face model cache
+.cache/
+*.cache
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Streamlit config
+.streamlit/
+
+# Temp files
+*.tmp
+*.log

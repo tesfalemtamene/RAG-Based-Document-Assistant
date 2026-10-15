@@ -1,0 +1,7 @@
+pypdf
+langchain
+langchain-community
+tiktoken
+sentence-transformers
+transformers accelerate
+streamlit
